@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9575de;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 1px 0;
+}
+
+.navbar img {
+    height: 70px;
+    margin-right: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+.search-bar {
+    float: right;
+    margin-top: 13px;
+
+}
+
+.search-bar input {
+    border: solid 2px #9575de;
+    background-color: #9575de7e;
+    color: white;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+.icones {
+    margin-top: 20px;
+    margin-right: 60px;
+
+}
+
+.icones a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    transition: all .2s;
+}
+
+.icones a:hover {
+    background-color: #9575de;
+    color: black;
+}
+
+.filme-detalhes {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.filme-poster {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px 8px 0 0;
+}
+
+.filme-informacao {
+    padding: 20px;
+}
+
+.filme-titulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.filme-atores {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.filme-avaliacao {
+    font-size: 1.2em;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.filme-descrição {
+    font-size: 1em;
+    color: #555;
+}
+.rodape {
+    background-color: #3b3b3bcb;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+}
